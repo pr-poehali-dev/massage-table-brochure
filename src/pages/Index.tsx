@@ -71,8 +71,12 @@ export default function Index() {
           <h3 className="text-5xl md:text-6xl font-light text-center mb-4 text-secondary tracking-wide">
             Характеристики стола
           </h3>
-          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
-            Каждая деталь разработана с учётом потребностей профессионалов
+          <p className="text-center text-muted-foreground mb-6 max-w-3xl mx-auto text-lg">
+            Стационарный деревянный массажный стол. Ручная кропотливая работа.<br />
+            Любой размер и цвет по Вашему предпочтению!
+          </p>
+          <p className="text-center text-primary font-semibold mb-16 text-2xl">
+            Стоимость: 70 000 ₽
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
@@ -80,93 +84,131 @@ export default function Index() {
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
-                    <Icon name="Ruler" className="text-primary" size={32} />
+                    <Icon name="Hammer" className="text-primary" size={32} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-secondary">Регулируемая высота</h4>
+                    <h4 className="text-xl font-bold mb-2 text-secondary">Материалы премиум-класса</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Диапазон регулировки 60-85 см. Гидравлический механизм обеспечивает плавное изменение высоты без усилий.
+                      Клееный брус 100×100 мм и фанера шлифованная 15 мм. Конструкция монолитна и устойчива благодаря продуманной технологии изготовления.
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
                     <Icon name="Weight" className="text-primary" size={32} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-secondary">Максимальная нагрузка</h4>
+                    <h4 className="text-xl font-bold mb-2 text-secondary">Выдерживает до 500 кг</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Выдерживает до 250 кг. Усиленная рама из авиационного алюминия гарантирует стабильность при любых процедурах.
+                      Подходит даже для крупных клиентов и тайского массажа. Без риска расшатывания благодаря надёжной конструкции.
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
-                    <Icon name="Sparkles" className="text-primary" size={32} />
+                    <Icon name="ShieldCheck" className="text-primary" size={32} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-secondary">Медицинская обивка</h4>
+                    <h4 className="text-xl font-bold mb-2 text-secondary">5 степеней защиты от скрипов</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Экокожа премиум-класса устойчива к маслам и дезинфектантам. Легко очищается, не впитывает запахи.
+                      Стягивается болтами, все стыки проклеены, узлы паз-в-паз, деревянные чопики и металлические уголки.
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
-                    <Icon name="Package" className="text-primary" size={32} />
+                    <Icon name="Layers" className="text-primary" size={32} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-secondary">Портативность</h4>
+                    <h4 className="text-xl font-bold mb-2 text-secondary">Комфортная обивка</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Вес всего 18 кг в сложенном виде. Компактная сумка для переноски входит в комплект.
+                      Двойной поролон-сэндвич любой толщины и плотности. Экокожа медицинская износостойкая производства Польша.
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
-                    <Icon name="Shield" className="text-primary" size={32} />
+                    <Icon name="Paintbrush" className="text-primary" size={32} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-secondary">Гарантия качества</h4>
+                    <h4 className="text-xl font-bold mb-2 text-secondary">Качественное покрытие</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      3 года официальной гарантии производителя. Сервисное обслуживание в 50+ городах России.
+                      Покрывается качественным лаком в два слоя. Защита дерева и элегантный внешний вид на долгие годы.
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
                     <Icon name="Palette" className="text-primary" size={32} />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold mb-2 text-secondary">Выбор цвета</h4>
+                    <h4 className="text-xl font-bold mb-2 text-secondary">Индивидуальный подход</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      8 цветов обивки на выбор: белый, бежевый, серый, синий, зелёный, чёрный, бордо, шоколад.
+                      Любой размер и цвет по вашему предпочтению. Также изготавливаем широкие и низкие столы для тайского массажа.
                     </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-16 max-w-4xl mx-auto">
+            <Card className="border-2 border-primary/20 bg-primary/5">
+              <CardContent className="p-8">
+                <h4 className="text-2xl font-bold mb-4 text-secondary text-center">Условия заказа</h4>
+                <div className="grid md:grid-cols-2 gap-6 text-muted-foreground">
+                  <div className="flex items-start gap-3">
+                    <Icon name="Clock" className="text-primary mt-1" size={24} />
+                    <div>
+                      <p className="font-semibold text-foreground mb-1">Срок изготовления</p>
+                      <p>3 недели на один стол</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="CreditCard" className="text-primary mt-1" size={24} />
+                    <div>
+                      <p className="font-semibold text-foreground mb-1">Оплата</p>
+                      <p>50% предоплата + 50% после изготовления</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="Truck" className="text-primary mt-1" size={24} />
+                    <div>
+                      <p className="font-semibold text-foreground mb-1">Доставка СПб</p>
+                      <p>Север — бесплатно, Юг — 1500 ₽</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Icon name="Gift" className="text-primary mt-1" size={24} />
+                    <div>
+                      <p className="font-semibold text-foreground mb-1">Бонус</p>
+                      <p>Сборка стола в подарок</p>
+                    </div>
                   </div>
                 </div>
               </CardContent>
