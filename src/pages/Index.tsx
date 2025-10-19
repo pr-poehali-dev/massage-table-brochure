@@ -413,60 +413,72 @@ export default function Index() {
             <h3 className="text-5xl md:text-6xl font-light text-center mb-4 text-secondary tracking-wide">
               Контакты
             </h3>
+            <p className="text-center text-muted-foreground mb-2 text-lg">
+              Зозулина Марина Федоровна
+            </p>
+            <p className="text-center text-muted-foreground mb-4">
+              Самозанятая · Опыт работы с массажным инвентарём с 2005 года
+            </p>
             <p className="text-center text-muted-foreground mb-16 text-lg">
-              Свяжитесь с нами удобным способом
+              Свяжитесь со мной удобным способом
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <Card className="hover-scale transition-all duration-300">
+              <Card className="hover-scale transition-all duration-300 border-2">
                 <CardContent className="p-8 text-center">
                   <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name="Phone" className="text-primary" size={32} />
                   </div>
-                  <h4 className="text-xl font-bold mb-2 text-secondary">Телефон</h4>
-                  <a href="tel:+79991234567" className="text-primary hover:underline text-lg">
-                    +7 (999) 123-45-67
+                  <h4 className="text-xl font-bold mb-3 text-secondary">Телефоны</h4>
+                  <a href="tel:+79110316263" className="text-primary hover:underline text-lg block mb-2">
+                    +7 (911) 031-62-63
                   </a>
-                  <p className="text-sm text-muted-foreground mt-2">Ежедневно с 9:00 до 21:00</p>
-                </CardContent>
-              </Card>
-
-              <Card className="hover-scale transition-all duration-300">
-                <CardContent className="p-8 text-center">
-                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon name="Mail" className="text-primary" size={32} />
-                  </div>
-                  <h4 className="text-xl font-bold mb-2 text-secondary">Email</h4>
-                  <a href="mailto:info@medtable.ru" className="text-primary hover:underline text-lg">
-                    info@medtable.ru
+                  <a href="tel:+79111121573" className="text-primary hover:underline text-lg block">
+                    +7 (911) 112-15-73
                   </a>
-                  <p className="text-sm text-muted-foreground mt-2">Ответим в течение часа</p>
+                  <p className="text-sm text-muted-foreground mt-3">Звоните в любое удобное время</p>
                 </CardContent>
               </Card>
 
-              <Card className="hover-scale transition-all duration-300">
-                <CardContent className="p-8 text-center">
-                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon name="MapPin" className="text-primary" size={32} />
-                  </div>
-                  <h4 className="text-xl font-bold mb-2 text-secondary">Адрес</h4>
-                  <p className="text-muted-foreground">
-                    г. Москва, ул. Медицинская, д. 10
-                  </p>
-                  <p className="text-sm text-muted-foreground mt-2">Шоу-рум работает по записи</p>
-                </CardContent>
-              </Card>
-
-              <Card className="hover-scale transition-all duration-300">
+              <Card className="hover-scale transition-all duration-300 border-2">
                 <CardContent className="p-8 text-center">
                   <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Icon name="MessageCircle" className="text-primary" size={32} />
                   </div>
-                  <h4 className="text-xl font-bold mb-2 text-secondary">WhatsApp</h4>
-                  <a href="https://wa.me/79991234567" className="text-primary hover:underline text-lg">
-                    Написать в чат
+                  <h4 className="text-xl font-bold mb-3 text-secondary">WhatsApp</h4>
+                  <a href="https://wa.me/79110316263" className="text-primary hover:underline text-lg block mb-2">
+                    +7 (911) 031-62-63
                   </a>
-                  <p className="text-sm text-muted-foreground mt-2">Быстрая консультация</p>
+                  <a href="https://wa.me/79111121573" className="text-primary hover:underline text-lg block">
+                    +7 (911) 112-15-73
+                  </a>
+                  <p className="text-sm text-muted-foreground mt-3">Быстрая консультация в мессенджере</p>
+                </CardContent>
+              </Card>
+
+              <Card className="hover-scale transition-all duration-300 border-2">
+                <CardContent className="p-8 text-center">
+                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Icon name="MapPin" className="text-primary" size={32} />
+                  </div>
+                  <h4 className="text-xl font-bold mb-2 text-secondary">Город</h4>
+                  <p className="text-muted-foreground text-lg">
+                    Санкт-Петербург
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-2">Доставка по всему городу</p>
+                </CardContent>
+              </Card>
+
+              <Card className="hover-scale transition-all duration-300 border-2">
+                <CardContent className="p-8 text-center">
+                  <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Icon name="Award" className="text-primary" size={32} />
+                  </div>
+                  <h4 className="text-xl font-bold mb-2 text-secondary">Опыт работы</h4>
+                  <p className="text-muted-foreground text-lg">
+                    С 2005 года
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-2">Более 19 лет в массажном деле</p>
                 </CardContent>
               </Card>
             </div>
