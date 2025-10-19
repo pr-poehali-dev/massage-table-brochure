@@ -34,8 +34,10 @@ export default function Index() {
                 Контакты
               </button>
             </div>
-            <Button onClick={() => setShowOrderForm(true)} className="bg-primary hover:bg-primary/90">
-              Заказать
+            <Button asChild className="bg-primary hover:bg-primary/90">
+              <a href="https://t.me/+NP4jJrnjM44wOWFi" target="_blank" rel="noopener noreferrer">
+                Заказать
+              </a>
             </Button>
           </nav>
         </div>
@@ -57,11 +59,13 @@ export default function Index() {
           </p>
           <Button 
             size="lg" 
-            onClick={() => setShowOrderForm(true)}
             className="bg-primary hover:bg-primary/90 text-white text-lg px-8 py-6 hover-scale"
+            asChild
           >
-            Заказать сейчас
-            <Icon name="ArrowRight" className="ml-2" size={20} />
+            <a href="https://t.me/+NP4jJrnjM44wOWFi" target="_blank" rel="noopener noreferrer">
+              Заказать сейчас
+              <Icon name="ArrowRight" className="ml-2" size={20} />
+            </a>
           </Button>
         </div>
       </section>
@@ -459,26 +463,26 @@ export default function Index() {
               <Card className="hover-scale transition-all duration-300 border-2">
                 <CardContent className="p-8 text-center">
                   <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon name="MapPin" className="text-primary" size={32} />
+                    <Icon name="Send" className="text-primary" size={32} />
                   </div>
-                  <h4 className="text-xl font-bold mb-2 text-secondary">Город</h4>
-                  <p className="text-muted-foreground text-lg">
-                    Санкт-Петербург
-                  </p>
-                  <p className="text-sm text-muted-foreground mt-2">Доставка по всему городу</p>
+                  <h4 className="text-xl font-bold mb-3 text-secondary">Telegram</h4>
+                  <a href="https://t.me/+NP4jJrnjM44wOWFi" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline text-lg block">
+                    Написать в Telegram
+                  </a>
+                  <p className="text-sm text-muted-foreground mt-3">Канал с примерами работ</p>
                 </CardContent>
               </Card>
 
               <Card className="hover-scale transition-all duration-300 border-2">
                 <CardContent className="p-8 text-center">
                   <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Icon name="Award" className="text-primary" size={32} />
+                    <Icon name="MapPin" className="text-primary" size={32} />
                   </div>
-                  <h4 className="text-xl font-bold mb-2 text-secondary">Опыт работы</h4>
+                  <h4 className="text-xl font-bold mb-2 text-secondary">Город</h4>
                   <p className="text-muted-foreground text-lg">
-                    С 2005 года
+                    Санкт-Петербург
                   </p>
-                  <p className="text-sm text-muted-foreground mt-2">Более 19 лет в массажном деле</p>
+                  <p className="text-sm text-muted-foreground mt-2">Опыт с 2005 года · Доставка по городу</p>
                 </CardContent>
               </Card>
             </div>
@@ -486,11 +490,13 @@ export default function Index() {
             <div className="text-center">
               <Button 
                 size="lg"
-                onClick={() => setShowOrderForm(true)}
                 className="bg-primary hover:bg-primary/90 text-white text-lg px-12 py-6 hover-scale"
+                asChild
               >
-                Оставить заявку на заказ
-                <Icon name="Send" className="ml-2" size={20} />
+                <a href="https://t.me/+NP4jJrnjM44wOWFi" target="_blank" rel="noopener noreferrer">
+                  Оставить заявку на заказ
+                  <Icon name="Send" className="ml-2" size={20} />
+                </a>
               </Button>
             </div>
           </div>
