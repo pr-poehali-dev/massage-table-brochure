@@ -49,11 +49,11 @@ export default function Index() {
           }}
         />
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
-          <h2 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Профессиональные массажные столы
+          <h2 className="text-6xl md:text-8xl font-light mb-6 animate-fade-in tracking-wide">
+            Профессиональные<br />массажные столы
           </h2>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto font-light">
-            Непревзойденное качество для вашей практики. Надёжность, проверенная тысячами специалистов.
+          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto font-light opacity-95">
+            Непревзойденное качество для вашей практики.<br />Надёжность, проверенная тысячами специалистов.
           </p>
           <Button 
             size="lg" 
@@ -68,15 +68,15 @@ export default function Index() {
 
       <section id="features" className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h3 className="text-4xl md:text-5xl font-bold text-center mb-4 text-secondary">
+          <h3 className="text-5xl md:text-6xl font-light text-center mb-4 text-secondary tracking-wide">
             Характеристики стола
           </h3>
-          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
+          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
             Каждая деталь разработана с учётом потребностей профессионалов
           </p>
           
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-start gap-4">
                   <div className="bg-primary/10 p-3 rounded-lg">
@@ -174,21 +174,23 @@ export default function Index() {
           </div>
 
           <div className="mt-16 text-center">
-            <img 
-              src="https://cdn.poehali.dev/projects/fea17385-1911-4b83-937e-2cd5f39c214f/files/fde69323-ac2b-41da-97f9-d3e6e5365923.jpg" 
-              alt="Детали массажного стола"
-              className="rounded-2xl shadow-2xl max-w-3xl mx-auto"
-            />
+            <div className="relative inline-block">
+              <img 
+                src="https://cdn.poehali.dev/projects/fea17385-1911-4b83-937e-2cd5f39c214f/files/fde69323-ac2b-41da-97f9-d3e6e5365923.jpg" 
+                alt="Детали массажного стола"
+                className="rounded-2xl shadow-2xl max-w-3xl mx-auto border-4 border-primary/10"
+              />
+            </div>
           </div>
         </div>
       </section>
 
       <section id="reviews" className="py-24 bg-white">
         <div className="container mx-auto px-4">
-          <h3 className="text-4xl md:text-5xl font-bold text-center mb-4 text-secondary">
+          <h3 className="text-5xl md:text-6xl font-light text-center mb-4 text-secondary tracking-wide">
             Отзывы специалистов
           </h3>
-          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
+          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
             Более 3000 довольных клиентов по всей России
           </p>
 
@@ -267,10 +269,10 @@ export default function Index() {
       <section id="contact" className="py-24 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-4xl md:text-5xl font-bold text-center mb-4 text-secondary">
+            <h3 className="text-5xl md:text-6xl font-light text-center mb-4 text-secondary tracking-wide">
               Контакты
             </h3>
-            <p className="text-center text-muted-foreground mb-16">
+            <p className="text-center text-muted-foreground mb-16 text-lg">
               Свяжитесь с нами удобным способом
             </p>
 
