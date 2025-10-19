@@ -18,7 +18,7 @@ export default function Index() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="Heart" className="text-primary" size={28} />
-              <h1 className="text-2xl font-bold text-secondary">MedTable Pro</h1>
+              <h1 className="text-2xl font-bold text-secondary">ZozulTable</h1>
             </div>
             <div className="hidden md:flex items-center gap-6">
               <button onClick={() => scrollToSection("hero")} className="text-foreground hover:text-primary transition-colors">
@@ -348,13 +348,13 @@ export default function Index() {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Icon name="Heart" className="text-primary" size={32} />
-            <h2 className="text-2xl font-bold">MedTable Pro</h2>
+            <h2 className="text-2xl font-bold">ZozulTable</h2>
           </div>
           <p className="text-white/80 mb-4">
             Профессиональное оборудование для массажа и терапии
           </p>
           <p className="text-white/60 text-sm">
-            © 2024 MedTable Pro. Все права защищены.
+            © 2024 ZozulTable. Все права защищены.
           </p>
         </div>
       </footer>
