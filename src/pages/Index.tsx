@@ -260,24 +260,27 @@ export default function Index() {
       <section id="reviews" className="py-24 bg-white">
         <div className="container mx-auto px-4">
           <h3 className="text-5xl md:text-6xl font-light text-center mb-4 text-secondary tracking-wide">
-            Отзывы специалистов
+            Отзывы клиентов
           </h3>
-          <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto text-lg">
-            Более 3000 довольных клиентов по всей России
+          <p className="text-center text-muted-foreground mb-4 max-w-2xl mx-auto text-lg">
+            Рейтинг 5.0 на основании 9 отзывов
           </p>
+          <div className="flex justify-center gap-1 mb-16">
+            {[...Array(5)].map((_, i) => (
+              <Icon key={i} name="Star" className="text-yellow-400 fill-yellow-400" size={32} />
+            ))}
+          </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <img 
-                    src="https://cdn.poehali.dev/projects/fea17385-1911-4b83-937e-2cd5f39c214f/files/e7f5edd2-6deb-44f6-8ed6-a20221b0e2c5.jpg"
-                    alt="Анна Петрова"
-                    className="w-16 h-16 rounded-full object-cover"
-                  />
+                  <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-green-700">В</span>
+                  </div>
                   <div>
-                    <p className="font-bold text-secondary">Анна Петрова</p>
-                    <p className="text-sm text-muted-foreground">Массажист, 8 лет опыта</p>
+                    <p className="font-bold text-secondary">Василиса</p>
+                    <p className="text-sm text-muted-foreground">август 2024</p>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-3">
@@ -286,20 +289,20 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  "Работаю на этом столе уже 2 года. Невероятно удобный и надёжный. Клиенты всегда отмечают комфорт во время сеанса."
+                  "Спасибо большое Евгению за стол моей мечты. Выполнил работу в срок. Материалы высокого качества, стол устойчивый и очень красивый. Установил все быстро, четко и даже помог с другими мелкими делами. Буду рекомендовать!"
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
-                    <Icon name="User" className="text-primary" size={32} />
+                  <div className="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-purple-700">И</span>
                   </div>
                   <div>
-                    <p className="font-bold text-secondary">Дмитрий Соколов</p>
-                    <p className="text-sm text-muted-foreground">Остеопат, 12 лет опыта</p>
+                    <p className="font-bold text-secondary">Ирина</p>
+                    <p className="text-sm text-muted-foreground">Массажист</p>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-3">
@@ -308,20 +311,20 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  "Идеальное соотношение цены и качества. Выдерживает интенсивную работу, легко транспортируется на выезды."
+                  "Для массажиста очень важно какой стол. Этот идеальный, всё сделано четко как заказывала (высота, длина, ширина, цвет, размер отверстия). Клиентам удобно лежать, мастеру работать. Заказала ещё стол в другой салон."
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="hover-scale transition-all duration-300">
+            <Card className="hover-scale transition-all duration-300 border-2">
               <CardContent className="p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
-                    <Icon name="User" className="text-primary" size={32} />
+                  <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-blue-700">М</span>
                   </div>
                   <div>
-                    <p className="font-bold text-secondary">Елена Васильева</p>
-                    <p className="text-sm text-muted-foreground">Владелица SPA-салона</p>
+                    <p className="font-bold text-secondary">Марина</p>
+                    <p className="text-sm text-muted-foreground">июнь 2024</p>
                   </div>
                 </div>
                 <div className="flex gap-1 mb-3">
@@ -330,7 +333,73 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  "Купили 5 столов для салона. Качество на высоте, выглядят премиально. Клиенты в восторге от комфорта!"
+                  "Огромная благодарность мастеру Евгению! Сделал массажный стол по индивидуальным параметрам, сам доставил и собрал на месте. Качественные материалы, продумана каждая деталь. Это мастер высокого и премиального уровня."
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover-scale transition-all duration-300 border-2">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-16 h-16 rounded-full bg-pink-100 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-pink-700">Ю</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-secondary">Юлия</p>
+                    <p className="text-sm text-muted-foreground">июль 2024</p>
+                  </div>
+                </div>
+                <div className="flex gap-1 mb-3">
+                  {[...Array(5)].map((_, i) => (
+                    <Icon key={i} name="Star" className="text-yellow-400 fill-yellow-400" size={20} />
+                  ))}
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  "Евгений, благодарю за замечательный массажный стол! Клиенты все оценили. Очень комфортно лежать длительное время, очень удобный в разных массажах. Отдельное спасибо, что привезли и установили на месте."
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover-scale transition-all duration-300 border-2">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-16 h-16 rounded-full bg-orange-100 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-orange-700">D</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-secondary">Daria</p>
+                    <p className="text-sm text-muted-foreground">май 2024</p>
+                  </div>
+                </div>
+                <div className="flex gap-1 mb-3">
+                  {[...Array(5)].map((_, i) => (
+                    <Icon key={i} name="Star" className="text-yellow-400 fill-yellow-400" size={20} />
+                  ))}
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  "Великолепные столы и вежливый грамотный мастер. Все просто в лучшем виде, с соблюдением сроков и стоимости. Благодарим 🙏"
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="hover-scale transition-all duration-300 border-2">
+              <CardContent className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-amber-700">И</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-secondary">Илья Тимофеев</p>
+                    <p className="text-sm text-muted-foreground">апрель 2024</p>
+                  </div>
+                </div>
+                <div className="flex gap-1 mb-3">
+                  {[...Array(5)].map((_, i) => (
+                    <Icon key={i} name="Star" className="text-yellow-400 fill-yellow-400" size={20} />
+                  ))}
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  "✨ Настоящее воплощение комфорта и качества! ✨"
                 </p>
               </CardContent>
             </Card>
