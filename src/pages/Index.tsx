@@ -45,7 +45,7 @@ export default function Index() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://cdn.poehali.dev/projects/fea17385-1911-4b83-937e-2cd5f39c214f/files/bc7f4ded-d827-480e-a160-17d4d4e2e357.jpg')`
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('https://cdn.poehali.dev/files/6128fdbb-4efd-40c0-aded-0514f512718f.jpg')`
           }}
         />
         <div className="relative z-10 container mx-auto px-4 text-center text-white">
