@@ -215,13 +215,43 @@ export default function Index() {
             </Card>
           </div>
 
-          <div className="mt-16 text-center">
-            <div className="relative inline-block">
-              <img 
-                src="https://cdn.poehali.dev/projects/fea17385-1911-4b83-937e-2cd5f39c214f/files/fde69323-ac2b-41da-97f9-d3e6e5365923.jpg" 
-                alt="Детали массажного стола"
-                className="rounded-2xl shadow-2xl max-w-3xl mx-auto border-4 border-primary/10"
-              />
+          <div className="mt-20">
+            <h4 className="text-3xl font-light text-center mb-12 text-secondary tracking-wide">
+              Процесс создания
+            </h4>
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              <div className="text-center">
+                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                  <img 
+                    src="https://cdn.poehali.dev/files/be1744be-9142-40fd-8acb-df19c58d7e14.jpg" 
+                    alt="Ручная работа с деревом"
+                    className="w-full h-80 object-cover"
+                  />
+                </div>
+                <p className="text-muted-foreground text-lg">Ручная кропотливая работа с каждой деталью</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                  <img 
+                    src="https://cdn.poehali.dev/files/4ea2b90b-37e9-4f7e-9351-cb8d0f4fe499.jpg" 
+                    alt="Точная подгонка элементов"
+                    className="w-full h-80 object-cover"
+                  />
+                </div>
+                <p className="text-muted-foreground text-lg">Точная подгонка всех элементов конструкции</p>
+              </div>
+              
+              <div className="text-center">
+                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                  <img 
+                    src="https://cdn.poehali.dev/files/22c66662-8f25-43c0-b5f6-f24585508bbb.jpg" 
+                    alt="Готовый массажный стол"
+                    className="w-full h-80 object-cover"
+                  />
+                </div>
+                <p className="text-muted-foreground text-lg">Готовый стол премиум-класса</p>
+              </div>
             </div>
           </div>
         </div>
