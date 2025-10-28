@@ -267,7 +267,7 @@ export default function Index() {
             Отзывы клиентов
           </h3>
           <p className="text-center text-muted-foreground mb-4 max-w-2xl mx-auto text-lg">
-            Рейтинг 5.0 на основании 9 отзывов
+            Рейтинг 5.0 на основании множества отзывов
           </p>
           <div className="flex justify-center gap-1 mb-16">
             {[...Array(5)].map((_, i) => (
