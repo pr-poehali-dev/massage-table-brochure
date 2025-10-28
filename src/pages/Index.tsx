@@ -223,38 +223,60 @@ export default function Index() {
             <h4 className="text-3xl font-light text-center mb-12 text-secondary tracking-wide">
               Процесс создания
             </h4>
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-5 gap-6 max-w-7xl mx-auto">
               <div className="text-center">
                 <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                   <img 
-                    src="https://cdn.poehali.dev/files/be1744be-9142-40fd-8acb-df19c58d7e14.jpg" 
-                    alt="Ручная работа с деревом"
-                    className="w-full h-80 object-cover"
+                    src="https://cdn.poehali.dev/files/53f5ef34-7ae3-4e37-8fea-3a0429d6796e.jpg" 
+                    alt="Качественные материалы"
+                    className="w-full h-64 object-cover"
                   />
                 </div>
-                <p className="text-muted-foreground text-lg">Ручная кропотливая работа с каждой деталью</p>
+                <p className="text-muted-foreground">Лак премиум-класса Pinotex для защиты дерева</p>
+              </div>
+
+              <div className="text-center">
+                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                  <img 
+                    src="https://cdn.poehali.dev/files/cdedbcdf-4a69-4688-9b50-2f40eb8f7ab9.jpg" 
+                    alt="Надёжный крепеж"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <p className="text-muted-foreground">Болты КМП 8.8 для прочного стягивания</p>
               </div>
               
               <div className="text-center">
                 <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                   <img 
-                    src="https://cdn.poehali.dev/files/4ea2b90b-37e9-4f7e-9351-cb8d0f4fe499.jpg" 
-                    alt="Точная подгонка элементов"
-                    className="w-full h-80 object-cover"
+                    src="https://cdn.poehali.dev/files/388fa6cf-e8bc-40f9-b285-acd8cb78edaf.jpg" 
+                    alt="Сборка каркаса"
+                    className="w-full h-64 object-cover"
                   />
                 </div>
-                <p className="text-muted-foreground text-lg">Точная подгонка всех элементов конструкции</p>
+                <p className="text-muted-foreground">Сборка прочной деревянной конструкции</p>
+              </div>
+
+              <div className="text-center">
+                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                  <img 
+                    src="https://cdn.poehali.dev/files/6a86c7c1-4f71-470e-9f01-48e6cfa7e742.jpg" 
+                    alt="Детализация каркаса"
+                    className="w-full h-64 object-cover"
+                  />
+                </div>
+                <p className="text-muted-foreground">Точная подгонка всех элементов</p>
               </div>
               
               <div className="text-center">
                 <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                   <img 
-                    src="https://cdn.poehali.dev/files/22c66662-8f25-43c0-b5f6-f24585508bbb.jpg" 
-                    alt="Готовый массажный стол"
-                    className="w-full h-80 object-cover"
+                    src="https://cdn.poehali.dev/files/6972d191-943a-4690-9df6-c2a6470cc7b2.jpg" 
+                    alt="Обивка столешницы"
+                    className="w-full h-64 object-cover"
                   />
                 </div>
-                <p className="text-muted-foreground text-lg">Готовый стол премиум-класса</p>
+                <p className="text-muted-foreground">Обивка медицинской экокожей</p>
               </div>
             </div>
           </div>
