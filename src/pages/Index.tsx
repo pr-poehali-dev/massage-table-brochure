@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
 import { useState } from "react";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 export default function Index() {
   const [showOrderForm, setShowOrderForm] = useState(false);
@@ -223,62 +224,76 @@ export default function Index() {
             <h4 className="text-3xl font-light text-center mb-12 text-secondary tracking-wide">
               Процесс создания
             </h4>
-            <div className="grid md:grid-cols-5 gap-6 max-w-7xl mx-auto">
-              <div className="text-center">
-                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
-                  <img 
-                    src="https://cdn.poehali.dev/files/53f5ef34-7ae3-4e37-8fea-3a0429d6796e.jpg" 
-                    alt="Качественные материалы"
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
-                <p className="text-muted-foreground">Лак премиум-класса Pinotex для защиты дерева</p>
-              </div>
+            <Carousel className="max-w-5xl mx-auto">
+              <CarouselContent>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/53f5ef34-7ae3-4e37-8fea-3a0429d6796e.jpg" 
+                        alt="Качественные материалы"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-lg">Лак премиум-класса Pinotex для защиты дерева</p>
+                  </div>
+                </CarouselItem>
 
-              <div className="text-center">
-                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
-                  <img 
-                    src="https://cdn.poehali.dev/files/cdedbcdf-4a69-4688-9b50-2f40eb8f7ab9.jpg" 
-                    alt="Надёжный крепеж"
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
-                <p className="text-muted-foreground">Болты КМП 8.8 для прочного стягивания</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
-                  <img 
-                    src="https://cdn.poehali.dev/files/388fa6cf-e8bc-40f9-b285-acd8cb78edaf.jpg" 
-                    alt="Сборка каркаса"
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
-                <p className="text-muted-foreground">Сборка прочной деревянной конструкции</p>
-              </div>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/cdedbcdf-4a69-4688-9b50-2f40eb8f7ab9.jpg" 
+                        alt="Надёжный крепеж"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-lg">Болты КМП 8.8 для прочного стягивания</p>
+                  </div>
+                </CarouselItem>
+                
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/388fa6cf-e8bc-40f9-b285-acd8cb78edaf.jpg" 
+                        alt="Сборка каркаса"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-lg">Сборка прочной деревянной конструкции</p>
+                  </div>
+                </CarouselItem>
 
-              <div className="text-center">
-                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
-                  <img 
-                    src="https://cdn.poehali.dev/files/6a86c7c1-4f71-470e-9f01-48e6cfa7e742.jpg" 
-                    alt="Детализация каркаса"
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
-                <p className="text-muted-foreground">Точная подгонка всех элементов</p>
-              </div>
-              
-              <div className="text-center">
-                <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
-                  <img 
-                    src="https://cdn.poehali.dev/files/6972d191-943a-4690-9df6-c2a6470cc7b2.jpg" 
-                    alt="Обивка столешницы"
-                    className="w-full h-64 object-cover"
-                  />
-                </div>
-                <p className="text-muted-foreground">Обивка медицинской экокожей</p>
-              </div>
-            </div>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/6a86c7c1-4f71-470e-9f01-48e6cfa7e742.jpg" 
+                        alt="Детализация каркаса"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-lg">Точная подгонка всех элементов</p>
+                  </div>
+                </CarouselItem>
+                
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/6972d191-943a-4690-9df6-c2a6470cc7b2.jpg" 
+                        alt="Обивка столешницы"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-lg">Обивка медицинской экокожей</p>
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious className="-left-12" />
+              <CarouselNext className="-right-12" />
+            </Carousel>
           </div>
         </div>
       </section>
