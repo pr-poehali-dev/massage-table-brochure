@@ -56,7 +56,7 @@ export default function Index() {
             Профессиональные<br />массажные столы
           </h2>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 max-w-2xl mx-auto font-light opacity-95 px-4">
-            Непревзойденное качество для вашей практики.<br className="hidden sm:block" /><span className="sm:hidden"> </span>Надёжность, проверенная тысячами специалистов.
+            Непревзойденное качество для вашей практики.<br className="hidden sm:block" /><span className="sm:hidden"> </span>Надёжность, проверенная временем.
           </p>
           <Button 
             size="lg" 
