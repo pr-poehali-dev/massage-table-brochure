@@ -110,8 +110,10 @@ export default function Index() {
                   </div>
                   <div>
                     <h4 className="text-lg sm:text-xl font-bold mb-2 text-secondary">Выдерживает до 500 кг</h4>
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Подходит даже для крупных клиентов и тайского массажа. 
-Без риска расшатывания благодаря надёжной конструкции.</p>
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                      Подходит даже для крупных клиентов и тайского массажа.<br />
+                      Без риска расшатывания благодаря надёжной конструкции.
+                    </p>
                   </div>
                 </div>
               </CardContent>
