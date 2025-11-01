@@ -93,8 +93,10 @@ export default function Index() {
                   </div>
                   <div>
                     <h4 className="text-lg sm:text-xl font-bold mb-2 text-secondary">Материалы премиум-класса</h4>
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Клееный брус 100×100 мм и фанера шлифованная 15 мм. 
-Конструкция монолитна и устойчива благодаря продуманной технологии изготовления.</p>
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                      Клееный брус 100×100 мм и фанера шлифованная 15 мм.<br />
+                      Конструкция монолитна и устойчива благодаря продуманной технологии изготовления.
+                    </p>
                   </div>
                 </div>
               </CardContent>
