@@ -336,7 +336,7 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
-                        src="https://cdn.poehali.dev/files/6d48a468-01ef-4ead-9cc8-335904a14bbe.jpg" 
+                        src="https://cdn.poehali.dev/files/94bf8f13-6bae-4b87-ad9a-cf656fe3d9e2.jpg" 
                         alt="Поролон разной плотности"
                         className="w-full h-96 object-cover"
                       />
