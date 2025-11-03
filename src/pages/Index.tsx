@@ -77,7 +77,8 @@ export default function Index() {
             Характеристики стола
           </h3>
           <p className="text-center text-muted-foreground mb-6 max-w-3xl mx-auto text-base sm:text-lg px-4">
-            Стационарный деревянный массажный стол. Ручная кропотливая работа.<br className="hidden sm:block" /><span className="sm:hidden"> </span>
+            Стационарный деревянный массажный стол.<br />
+            Ручная кропотливая работа.<br />
             Любой размер и цвет по Вашему предпочтению!
           </p>
           <p className="text-center text-primary font-semibold mb-12 sm:mb-16 text-xl sm:text-2xl px-4">
