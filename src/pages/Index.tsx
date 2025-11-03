@@ -323,6 +323,19 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
+                        src="https://cdn.poehali.dev/files/b3910cdf-cf4f-43b3-9149-c6a994f20034.jpg" 
+                        alt="Медицинская экокожа разных цветов"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Широкая палитра медицинской экокожи</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
                         src="https://cdn.poehali.dev/files/6d48a468-01ef-4ead-9cc8-335904a14bbe.jpg" 
                         alt="Поролон разной плотности"
                         className="w-full h-96 object-cover"
