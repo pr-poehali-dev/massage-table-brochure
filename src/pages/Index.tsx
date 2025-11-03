@@ -355,7 +355,7 @@ export default function Index() {
                         className="w-full h-96 object-cover"
                       />
                     </div>
-                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Подготовка к обивке экокожей</p>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Профилактика скрипов при работе на столе</p>
                   </div>
                 </CarouselItem>
 
