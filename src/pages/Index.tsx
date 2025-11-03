@@ -28,6 +28,9 @@ export default function Index() {
               <button onClick={() => scrollToSection("features")} className="text-foreground hover:text-primary transition-colors">
                 Характеристики
               </button>
+              <button onClick={() => scrollToSection("gallery")} className="text-foreground hover:text-primary transition-colors">
+                Готовые столы
+              </button>
               <button onClick={() => scrollToSection("reviews")} className="text-foreground hover:text-primary transition-colors">
                 Отзывы
               </button>
@@ -332,6 +335,78 @@ export default function Index() {
               <CarouselPrevious className="left-2 sm:-left-12" />
               <CarouselNext className="right-2 sm:-right-12" />
             </Carousel>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" className="py-24 bg-gradient-to-b from-white to-primary/5">
+        <div className="container mx-auto px-4">
+          <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light text-center mb-4 text-secondary tracking-wide px-4">
+            Готовые столы
+          </h3>
+          <p className="text-center text-muted-foreground mb-12 sm:mb-16 max-w-2xl mx-auto text-base sm:text-lg px-4">
+            Посмотрите примеры наших работ — каждый стол создан с заботой о качестве и комфорте
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
+            <Card className="hover-scale transition-all duration-300 overflow-hidden border-2">
+              <div className="relative overflow-hidden group">
+                <img 
+                  src="https://cdn.poehali.dev/files/4a69f1c7-7944-40d0-9276-7105589649f3.jpg" 
+                  alt="Массажный стол с декором"
+                  className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <div className="p-4 text-white">
+                    <p className="text-sm font-semibold">Стол для массажного салона</p>
+                    <p className="text-xs opacity-90">Тёмная обивка с декоративной отделкой</p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="hover-scale transition-all duration-300 overflow-hidden border-2">
+              <div className="relative overflow-hidden group">
+                <img 
+                  src="https://cdn.poehali.dev/files/4b169a20-12ac-40e5-8228-7fdd7e3e3252.jpg" 
+                  alt="Бирюзовый массажный стол"
+                  className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <div className="p-4 text-white">
+                    <p className="text-sm font-semibold">Стол яркого цвета</p>
+                    <p className="text-xs opacity-90">Бирюзовая экокожа, классический дизайн</p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="hover-scale transition-all duration-300 overflow-hidden border-2">
+              <div className="relative overflow-hidden group">
+                <img 
+                  src="https://cdn.poehali.dev/files/a195dd4a-28bf-4200-8893-bc8bca014ccd.jpg" 
+                  alt="Фиолетовый массажный стол"
+                  className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                  <div className="p-4 text-white">
+                    <p className="text-sm font-semibold">Стол для кабинета</p>
+                    <p className="text-xs opacity-90">Фиолетовая обивка, деревянный каркас</p>
+                  </div>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12 sm:mt-16">
+            <p className="text-muted-foreground mb-6 text-base sm:text-lg">
+              Хотите такой же стол для своего салона?
+            </p>
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
+              <a href="https://t.me/+NP4jJrnjM44wOWFi" target="_blank" rel="noopener noreferrer">
+                Заказать свой стол
+              </a>
+            </Button>
           </div>
         </div>
       </section>
