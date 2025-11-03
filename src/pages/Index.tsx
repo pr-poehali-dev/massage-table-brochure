@@ -323,6 +323,45 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
+                        src="https://cdn.poehali.dev/files/e7cb5413-9ef6-481a-9f7e-6d58bb358948.jpg" 
+                        alt="Деревянная рама с ламелями"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Установка деревянных ламелей</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/09abdfcb-5112-45e5-856b-77035e9ba187.jpg" 
+                        alt="Готовый каркас стола"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Готовая деревянная конструкция</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/3762b38d-8b09-48c5-9f99-955a4e5e4837.jpg" 
+                        alt="Каркас стола с обивкой"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Подготовка к обивке экокожей</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
                         src="https://cdn.poehali.dev/files/6a86c7c1-4f71-470e-9f01-48e6cfa7e742.jpg" 
                         alt="Детализация каркаса"
                         className="w-full h-96 object-cover"
