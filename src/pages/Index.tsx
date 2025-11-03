@@ -323,12 +323,51 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
+                        src="https://cdn.poehali.dev/files/6d48a468-01ef-4ead-9cc8-335904a14bbe.jpg" 
+                        alt="Поролон разной плотности"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Поролон разной плотности для комфорта</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
                         src="https://cdn.poehali.dev/files/6972d191-943a-4690-9df6-c2a6470cc7b2.jpg" 
                         alt="Обивка столешницы"
                         className="w-full h-96 object-cover"
                       />
                     </div>
                     <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Обивка медицинской экокожей</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/103ecbb8-b64d-45e6-9454-123f43fed248.jpg" 
+                        alt="Готовые столешницы"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Готовые столешницы разных цветов</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/a8204d6b-f9d9-4fe3-8a48-9c4bb5d70517.jpg" 
+                        alt="Выставочный зал"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Столы готовы к отправке клиентам</p>
                   </div>
                 </CarouselItem>
 
