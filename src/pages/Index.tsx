@@ -286,7 +286,7 @@ export default function Index() {
                       <img 
                         src="https://cdn.poehali.dev/files/e69433fd-4893-44fd-b763-09a98756ca4f.jpg" 
                         alt="Ручная обработка дерева"
-                        className="w-full h-96 object-cover"
+                        className="w-full h-96 object-cover px-0"
                       />
                     </div>
                     <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Ручная обработка и подгонка элементов</p>
@@ -338,7 +338,7 @@ export default function Index() {
                       <img 
                         src="https://cdn.poehali.dev/files/94bf8f13-6bae-4b87-ad9a-cf656fe3d9e2.jpg" 
                         alt="Поролон разной плотности"
-                        className="w-full h-96 object-cover"
+                        className="w-full h-96 mx-0 rounded-none py-0 my-0 px-[87px] object-contain"
                       />
                     </div>
                     <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Поролон разной плотности для комфорта</p>
