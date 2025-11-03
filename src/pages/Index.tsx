@@ -229,7 +229,7 @@ export default function Index() {
                     <Icon name="Clock" className="text-primary mt-1 flex-shrink-0" size={24} />
                     <div>
                       <p className="font-semibold text-foreground mb-1 text-sm sm:text-base">Срок изготовления</p>
-                      <p className="text-sm sm:text-base">3 недели на один стол</p>
+                      <p className="text-sm sm:text-base">2 недели на один стол</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
