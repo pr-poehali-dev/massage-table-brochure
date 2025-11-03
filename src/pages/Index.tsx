@@ -271,12 +271,12 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
-                        src="https://cdn.poehali.dev/files/76548429-0275-4f88-a460-55fba7db7aa4.jpg" 
-                        alt="Деревянная ножка стола"
-                        className="w-full h-96 object-cover"
+                        src="https://cdn.poehali.dev/files/4039e9e0-6619-4554-9e45-4de07d3f01df.jpg" 
+                        alt="Мастерская"
+                        className="w-full h-96 object-cover px-0"
                       />
                     </div>
-                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Изготовление деревянных ножек</p>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Сборка деревянного каркаса</p>
                   </div>
                 </CarouselItem>
 
@@ -284,12 +284,12 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
-                        src="https://cdn.poehali.dev/files/4039e9e0-6619-4554-9e45-4de07d3f01df.jpg" 
-                        alt="Мастерская"
-                        className="w-full h-96 object-cover px-0"
+                        src="https://cdn.poehali.dev/files/76548429-0275-4f88-a460-55fba7db7aa4.jpg" 
+                        alt="Деревянная ножка стола"
+                        className="w-full h-96 object-cover"
                       />
                     </div>
-                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Сборка деревянного каркаса</p>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Изготовление деревянных ножек</p>
                   </div>
                 </CarouselItem>
 
