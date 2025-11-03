@@ -271,32 +271,6 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
-                        src="https://cdn.poehali.dev/files/53f5ef34-7ae3-4e37-8fea-3a0429d6796e.jpg" 
-                        alt="Качественные материалы"
-                        className="w-full h-96 object-cover"
-                      />
-                    </div>
-                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Лак премиум-класса Pinotex для защиты дерева</p>
-                  </div>
-                </CarouselItem>
-
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-                  <div className="text-center p-4">
-                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
-                      <img 
-                        src="https://cdn.poehali.dev/files/cdedbcdf-4a69-4688-9b50-2f40eb8f7ab9.jpg" 
-                        alt="Надёжный крепеж"
-                        className="w-full h-96 object-cover"
-                      />
-                    </div>
-                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Болты КМП 8.8 для прочного стягивания</p>
-                  </div>
-                </CarouselItem>
-                
-                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-                  <div className="text-center p-4">
-                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
-                      <img 
                         src="https://cdn.poehali.dev/files/388fa6cf-e8bc-40f9-b285-acd8cb78edaf.jpg" 
                         alt="Сборка каркаса"
                         className="w-full h-96 object-cover"
@@ -329,6 +303,32 @@ export default function Index() {
                       />
                     </div>
                     <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Обивка медицинской экокожей</p>
+                  </div>
+                </CarouselItem>
+
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/53f5ef34-7ae3-4e37-8fea-3a0429d6796e.jpg" 
+                        alt="Качественные материалы"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Лак премиум-класса Pinotex для защиты дерева</p>
+                  </div>
+                </CarouselItem>
+                
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="text-center p-4">
+                    <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
+                      <img 
+                        src="https://cdn.poehali.dev/files/cdedbcdf-4a69-4688-9b50-2f40eb8f7ab9.jpg" 
+                        alt="Надёжный крепеж"
+                        className="w-full h-96 object-cover"
+                      />
+                    </div>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Болты КМП 8.8 для прочного стягивания</p>
                   </div>
                 </CarouselItem>
               </CarouselContent>
