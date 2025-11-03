@@ -557,7 +557,7 @@ export default function Index() {
                   <p className="text-muted-foreground text-base sm:text-lg">
                     Санкт-Петербург
                   </p>
-                  <p className="text-sm text-muted-foreground mt-2">Опыт с 2005 года · Доставка по городу</p>
+                  <p className="text-sm text-muted-foreground mt-2">Опыт с 2015 года · Доставка по городу</p>
                 </CardContent>
               </Card>
             </div>
