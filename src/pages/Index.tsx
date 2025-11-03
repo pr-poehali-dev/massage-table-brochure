@@ -338,7 +338,7 @@ export default function Index() {
                       <img 
                         src="https://cdn.poehali.dev/files/94bf8f13-6bae-4b87-ad9a-cf656fe3d9e2.jpg" 
                         alt="Поролон разной плотности"
-                        className="w-full h-96 mx-0 rounded-none py-0 my-0 px-[87px] object-contain"
+                        className="w-full h-96 mx-0 rounded-none py-0 my-0 px-0 object-fill"
                       />
                     </div>
                     <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Поролон разной плотности для комфорта</p>
