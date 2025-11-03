@@ -131,7 +131,7 @@ export default function Index() {
                     <ul className="text-sm sm:text-base text-muted-foreground leading-relaxed list-disc list-inside space-y-1">
                       <li>Стягивается болтами</li>
                       <li>Все стыки проклеены столярным клеем</li>
-                      <li>Узлы паз-в-паз</li>
+                      <li>Узлы каркаса паз-в-паз</li>
                       <li>Деревянные чопики</li>
                       <li>Металлические уголки</li>
                     </ul>
