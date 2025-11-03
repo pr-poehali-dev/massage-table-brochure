@@ -496,7 +496,7 @@ export default function Index() {
               Зозулина Марина Федоровна
             </p>
             <p className="text-center text-muted-foreground mb-4 text-sm sm:text-base px-4">
-              Самозанятая · Опыт работы с массажным инвентарём с 2005 года
+              Самозанятая · Опыт работы с 2015 года
             </p>
             <p className="text-center text-muted-foreground mb-12 sm:mb-16 text-base sm:text-lg px-4">
               Свяжитесь со мной удобным способом
