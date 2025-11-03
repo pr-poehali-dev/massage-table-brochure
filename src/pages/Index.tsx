@@ -166,7 +166,8 @@ export default function Index() {
                   <div>
                     <h4 className="text-lg sm:text-xl font-bold mb-2 text-secondary">Качественное покрытие</h4>
                     <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                      Покрывается качественным лаком в два слоя. Защита дерева и элегантный внешний вид на долгие годы.
+                      Покрывается качественным лаком в два слоя.<br />
+                      Защита дерева и элегантный внешний вид на долгие годы.
                     </p>
                   </div>
                 </div>
