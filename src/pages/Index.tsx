@@ -149,7 +149,8 @@ export default function Index() {
                   <div>
                     <h4 className="text-lg sm:text-xl font-bold mb-2 text-secondary">Комфортная обивка</h4>
                     <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                      Двойной поролон-сэндвич любой толщины и плотности. Экокожа медицинская износостойкая производства Польша.
+                      Двойной поролон-сэндвич любой толщины и плотности.<br />
+                      Экокожа медицинская износостойкая производства Польша.
                     </p>
                   </div>
                 </div>
