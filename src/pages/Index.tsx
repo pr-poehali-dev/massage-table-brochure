@@ -262,9 +262,7 @@ export default function Index() {
           </div>
 
           <div className="mt-20">
-            <h4 className="text-2xl sm:text-3xl font-light text-center mb-8 sm:mb-12 text-secondary tracking-wide px-4">
-              Процесс создания
-            </h4>
+            <h4 className="text-2xl sm:text-3xl font-light text-center mb-8 sm:mb-12 text-secondary tracking-wide px-4">Процесс изготовления</h4>
             <Carousel className="max-w-5xl mx-auto">
               <CarouselContent>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/3">
