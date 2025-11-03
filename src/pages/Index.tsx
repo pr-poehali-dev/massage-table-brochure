@@ -183,8 +183,37 @@ export default function Index() {
                   <div>
                     <h4 className="text-lg sm:text-xl font-bold mb-2 text-secondary">Индивидуальный подход</h4>
                     <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                      Любой размер и цвет по вашему предпочтению. Также изготавливаем широкие и низкие столы для тайского массажа.
+                      Любой размер и цвет по вашему предпочтению.
                     </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-16 max-w-4xl mx-auto">
+            <Card className="border-2 border-primary/20 bg-gradient-to-br from-primary/5 to-primary/10">
+              <CardContent className="p-4 sm:p-6 md:p-8">
+                <div className="text-center mb-6">
+                  <div className="inline-block bg-primary/10 p-4 rounded-full mb-4">
+                    <Icon name="Sparkles" className="text-primary" size={40} />
+                  </div>
+                  <h4 className="text-2xl sm:text-3xl font-bold text-secondary mb-3">Что еще мы делаем</h4>
+                  <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+                    Помимо классических массажных столов
+                  </p>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 sm:p-8 shadow-lg">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-primary/10 p-3 rounded-lg flex-shrink-0">
+                      <Icon name="Workflow" className="text-primary" size={32} />
+                    </div>
+                    <div>
+                      <h5 className="text-lg sm:text-xl font-bold mb-2 text-secondary">Столы для тайского массажа</h5>
+                      <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+                        Изготавливаем широкие и низкие столы специально для тайского массажа. Учитываем все особенности техники и обеспечиваем максимальный комфорт для мастера и клиента.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </CardContent>
