@@ -128,9 +128,13 @@ export default function Index() {
                   </div>
                   <div>
                     <h4 className="text-lg sm:text-xl font-bold mb-2 text-secondary">5 степеней защиты от скрипов</h4>
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                      Стягивается болтами, все стыки проклеены, узлы паз-в-паз, деревянные чопики и металлические уголки.
-                    </p>
+                    <ul className="text-sm sm:text-base text-muted-foreground leading-relaxed list-disc list-inside space-y-1">
+                      <li>Стягивается болтами</li>
+                      <li>Все стыки проклеены</li>
+                      <li>Узлы паз-в-паз</li>
+                      <li>Деревянные чопики</li>
+                      <li>Металлические уголки</li>
+                    </ul>
                   </div>
                 </div>
               </CardContent>
