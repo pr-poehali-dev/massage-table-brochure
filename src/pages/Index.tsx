@@ -28,6 +28,9 @@ export default function Index() {
               <button onClick={() => scrollToSection("features")} className="text-foreground hover:text-primary transition-colors">
                 Характеристики
               </button>
+              <button onClick={() => scrollToSection("process")} className="text-foreground hover:text-primary transition-colors">
+                Процесс изготовления
+              </button>
               <button onClick={() => scrollToSection("gallery")} className="text-foreground hover:text-primary transition-colors">
                 Готовые столы
               </button>
