@@ -509,11 +509,11 @@ export default function Index() {
                     <Icon name="Phone" className="text-primary" size={32} />
                   </div>
                   <h4 className="text-xl font-bold mb-3 text-secondary">Телефоны</h4>
-                  <a href="tel:+79110316263" className="text-primary hover:underline text-base sm:text-lg block mb-2">
-                    +7 (911) 031-62-63
-                  </a>
-                  <a href="tel:+79111121573" className="text-primary hover:underline text-base sm:text-lg block">
+                  <a href="tel:+79111121573" className="text-primary hover:underline text-base sm:text-lg block mb-2">
                     +7 (911) 112-15-73
+                  </a>
+                  <a href="tel:+79110316263" className="text-primary hover:underline text-base sm:text-lg block">
+                    +7 (911) 031-62-63
                   </a>
                   <p className="text-sm text-muted-foreground mt-3">Звоните в любое удобное время</p>
                 </CardContent>
@@ -525,11 +525,11 @@ export default function Index() {
                     <Icon name="MessageCircle" className="text-primary" size={32} />
                   </div>
                   <h4 className="text-lg sm:text-xl font-bold mb-3 text-secondary">WhatsApp</h4>
-                  <a href="https://wa.me/79110316263" className="text-primary hover:underline text-base sm:text-lg block mb-2">
-                    +7 (911) 031-62-63
-                  </a>
-                  <a href="https://wa.me/79111121573" className="text-primary hover:underline text-base sm:text-lg block">
+                  <a href="https://wa.me/79111121573" className="text-primary hover:underline text-base sm:text-lg block mb-2">
                     +7 (911) 112-15-73
+                  </a>
+                  <a href="https://wa.me/79110316263" className="text-primary hover:underline text-base sm:text-lg block">
+                    +7 (911) 031-62-63
                   </a>
                   <p className="text-sm text-muted-foreground mt-3">Быстрая консультация в мессенджере</p>
                 </CardContent>
