@@ -271,12 +271,12 @@ export default function Index() {
                   <div className="text-center p-4">
                     <div className="relative overflow-hidden rounded-2xl shadow-xl mb-4 border-4 border-primary/10">
                       <img 
-                        src="https://cdn.poehali.dev/files/fa570067-987b-4974-9037-64b3d478614c.jpg" 
-                        alt="Проверка качества материала"
+                        src="https://cdn.poehali.dev/files/76548429-0275-4f88-a460-55fba7db7aa4.jpg" 
+                        alt="Деревянная ножка стола"
                         className="w-full h-96 object-cover"
                       />
                     </div>
-                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Проверка качества каждой детали</p>
+                    <p className="text-muted-foreground text-sm sm:text-base md:text-lg">Изготовление деревянных ножек</p>
                   </div>
                 </CarouselItem>
 
