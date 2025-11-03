@@ -130,7 +130,7 @@ export default function Index() {
                     <h4 className="text-lg sm:text-xl font-bold mb-2 text-secondary">5 степеней защиты от скрипов</h4>
                     <ul className="text-sm sm:text-base text-muted-foreground leading-relaxed list-disc list-inside space-y-1">
                       <li>Стягивается болтами</li>
-                      <li>Все стыки проклеены</li>
+                      <li>Все стыки проклеены столярным клеем</li>
                       <li>Узлы паз-в-паз</li>
                       <li>Деревянные чопики</li>
                       <li>Металлические уголки</li>
