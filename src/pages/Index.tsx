@@ -6,6 +6,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 export default function Index() {
   const [showOrderForm, setShowOrderForm] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -479,54 +480,34 @@ export default function Index() {
             Посмотрите примеры наших работ — каждый стол создан с заботой о качестве и комфорте
           </p>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
-            <Card className="hover-scale transition-all duration-300 overflow-hidden border-2">
-              <div className="relative overflow-hidden group">
-                <img 
-                  src="https://cdn.poehali.dev/files/4a69f1c7-7944-40d0-9276-7105589649f3.jpg" 
-                  alt="Массажный стол с декором"
-                  className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2 sm:gap-3 max-w-7xl mx-auto">
+            {[
+              { src: "https://cdn.poehali.dev/files/31245bcb-eea8-41e8-8bab-fdd2f3071870.jpg", alt: "Фиолетовый стол" },
+              { src: "https://cdn.poehali.dev/files/69f3190a-e137-411a-91b8-095f8afe9d6a.jpg", alt: "Фиолетовый стол с полкой" },
+              { src: "https://cdn.poehali.dev/files/b475473f-e30e-4679-be56-b0ade767df2f.jpg", alt: "Коричневый стол" },
+              { src: "https://cdn.poehali.dev/files/bff7f762-1ba8-4434-8ef5-08af675b6b1a.jpg", alt: "Чёрный стол" },
+              { src: "https://cdn.poehali.dev/files/c9ba1f64-7f3e-4be5-91b3-e123170e12e1.jpg", alt: "Стол в интерьере" },
+              { src: "https://cdn.poehali.dev/files/4a69f1c7-7944-40d0-9276-7105589649f3.jpg", alt: "Стол с декором" },
+              { src: "https://cdn.poehali.dev/files/0c206e1f-d03b-475e-a6f2-b0a941749107.jpg", alt: "Оранжевый стол" },
+              { src: "https://cdn.poehali.dev/files/00565c66-40b3-4fdb-b453-dfd634e5500b.jpg", alt: "Коричневый стол план" },
+              { src: "https://cdn.poehali.dev/files/ce2c717a-0ea6-4273-a692-73aa78d74234.jpg", alt: "Чёрный стол с ламелями" },
+              { src: "https://cdn.poehali.dev/files/35633553-0926-4051-a52b-796fb1f69afe.jpg", alt: "Два стола" },
+            ].map((image, index) => (
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-lg cursor-pointer group aspect-square border-2 border-primary/10 hover:border-primary/30 transition-all"
+                onClick={() => setSelectedImage(image.src)}
+              >
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 text-white">
-                    <p className="text-sm font-semibold">Стол для массажного салона</p>
-                    <p className="text-xs opacity-90">Тёмная обивка с декоративной отделкой</p>
-                  </div>
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <Icon name="Maximize2" className="text-white" size={32} />
                 </div>
               </div>
-            </Card>
-
-            <Card className="hover-scale transition-all duration-300 overflow-hidden border-2">
-              <div className="relative overflow-hidden group">
-                <img 
-                  src="https://cdn.poehali.dev/files/4b169a20-12ac-40e5-8228-7fdd7e3e3252.jpg" 
-                  alt="Бирюзовый массажный стол"
-                  className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 text-white">
-                    <p className="text-sm font-semibold">Стол яркого цвета</p>
-                    <p className="text-xs opacity-90">Бирюзовая экокожа, классический дизайн</p>
-                  </div>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="hover-scale transition-all duration-300 overflow-hidden border-2">
-              <div className="relative overflow-hidden group">
-                <img 
-                  src="https://cdn.poehali.dev/files/a195dd4a-28bf-4200-8893-bc8bca014ccd.jpg" 
-                  alt="Фиолетовый массажный стол"
-                  className="w-full h-80 object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 text-white">
-                    <p className="text-sm font-semibold">Стол для кабинета</p>
-                    <p className="text-xs opacity-90">Фиолетовая обивка, деревянный каркас</p>
-                  </div>
-                </div>
-              </div>
-            </Card>
+            ))}
           </div>
 
           <div className="text-center mt-12 sm:mt-16">
@@ -541,6 +522,26 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white hover:text-primary transition-colors"
+            onClick={() => setSelectedImage(null)}
+          >
+            <Icon name="X" size={40} />
+          </button>
+          <img
+            src={selectedImage}
+            alt="Просмотр изображения"
+            className="max-w-full max-h-full object-contain rounded-lg"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
 
       <section id="reviews" className="py-24 bg-white">
         <div className="container mx-auto px-4">
