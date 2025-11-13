@@ -691,19 +691,35 @@ export default function Index() {
             <p className="text-muted-foreground mb-6 text-base sm:text-lg">
               Хотите такой же стол для своего салона?
             </p>
-            <Button
-              asChild
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg"
-            >
-              <a
-                href="https://t.me/+NP4jJrnjM44wOWFi"
-                target="_blank"
-                rel="noopener noreferrer"
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button
+                asChild
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg w-full sm:w-auto"
               >
-                Заказать свой стол
-              </a>
-            </Button>
+                <a
+                  href="https://t.me/+NP4jJrnjM44wOWFi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Заказать в Telegram
+                </a>
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-6 text-lg w-full sm:w-auto"
+              >
+                <a
+                  href="https://www.avito.ru/sankt-peterburg/krasota_i_zdorove/statsionarnyy_massazhnyy_stol_derevyannyy_3455404282"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Заказать на Avito
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
